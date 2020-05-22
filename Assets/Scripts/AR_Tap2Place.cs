@@ -39,6 +39,10 @@ public class AR_Tap2Place : MonoBehaviour
     [Tooltip("Do we destroy the previous mesh with each spawn?")]
     private bool deletePrevious = false;
 
+    [SerializeField]
+    [Tooltip("Start with Ghost visible?")]
+    private bool showInitialGhost = false;
+
     #endregion
     // =====================================
     #region UIfields
